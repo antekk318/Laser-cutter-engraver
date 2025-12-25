@@ -5,16 +5,16 @@ This is a laser cutter project designed by myself. The idea came from the needin
 ## Overview
 
 **1. Tools**
--3D printer,
--Hex screwdrivers,
--soldering iron
+*3D printer,
+*Hex screwdrivers,
+*soldering iron
 
 **2. Parts**
--Laser module,
--2020 and 2040 aluminium extrusions, roller gantrys
--3x Nema 17 stepper motor,
--Arduino Uno + CNC Shield + 3 stepper drivers,
--MGN12 rail,
+*Laser module,
+*2020 and 2040 aluminium extrusions, roller gantrys
+*3x Nema 17 stepper motor,
+*Arduino Uno + CNC Shield + 3 stepper drivers,
+*MGN12 rail,
 
 For the exact parts I've used, please refer to the BOM.
 
