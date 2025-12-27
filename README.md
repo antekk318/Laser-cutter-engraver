@@ -22,5 +22,9 @@ For the exact parts I've used, please refer to the BOM.
 **3. Software**
 GRBL, Universal G-Code Sender, Arduino IDE, Fusion 360
 
-## Wiring manual
+<details>
+<summary>📄 Wiring Manual</summary>
+
 [wiring manual](wiring-manual.md)
+
+</details>
