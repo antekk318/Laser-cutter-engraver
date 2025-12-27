@@ -18,14 +18,14 @@ This is a laser cutter project designed by myself. The idea came from the need o
 * 3x Nema 17 stepper motor,
 * Arduino Uno + CNC Shield + 3 stepper drivers,
 
-*Screws and nuts*
-
+*Screws and nuts:*
+```
 The project uses metric, rounded head hex screws, ranging from M3 to M5.
 
 To mount parts to the aluminium profile, it uses t-slot nuts, and for the rest - standard hexagon nuts.
 
 ! Additionally, one >50mm long M5 bolt is needed for the sliding mechanism of the laser mount !
-
+```
 **For the exact parts I've used, please refer to the BOM.**
 
 **3. Software**
