@@ -26,6 +26,7 @@
    ![cnc shield 6](img/cnc6.png)
 
 9. Connect the PSU.
-   ![cnc psu](img/cnc7.png)
+
+    ![cnc psu](img/cnc7.png)
 
 The best way I've seen to keep the laser wires sturdy and outside the workspace, yet still able to move freely, is to zip tie them to a piece of filament.
