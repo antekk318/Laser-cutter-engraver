@@ -1,5 +1,6 @@
 # Laser-cutter-engraver ⚙️
 
+![3D model](img/overview.png)
 This is a laser cutter project designed by myself. The idea came from the need of such tool and not wanting to spend a load of money on prebuilt ones.
 
 ## Overview
