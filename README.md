@@ -29,6 +29,7 @@ To mount parts to the aluminium profile, it uses t-slot nuts, and for the rest -
 **For the exact parts I've used, please refer to the BOM.**
 
 **3. Software**
+
 GRBL, Universal G-Code Sender, Arduino IDE, Fusion 360
 
 ## [Wiring manual](wiring-manual.md)
