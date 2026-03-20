@@ -42,7 +42,9 @@ GRBL is the firmware which is going to run on the Arduino and interpret the G-co
 
 1. Download the Arduino IDE from their site, a program which allows to flash the Arduino with firmware.
 2. Download GRBL source code.zip file from the GitHub repository: https://github.com/gnea/grbl/releases and unzip the grbl file. Before we proceed a we need to modify the config.h file inside grbl to account for the lack of the Z axis.
+
 ![configh1](img/configh1.png)
+
 change that to:
 
 ![configh2](img/configh2.png)
