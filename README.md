@@ -48,6 +48,7 @@ GRBL is the firmware which is going to run on the Arduino and interpret the G-co
 change that to:
 
 ![configh2](img/configh2.png)
+
 Next, it is crucial to put jumpers on the pins marked red, to clone the A axis with X.
 
 ![A axis jumpers](img/jumperaxis.png)
