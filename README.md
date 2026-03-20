@@ -34,6 +34,29 @@ GRBL, Universal G-Code Sender, Arduino IDE, Fusion 360
 
 ## [Wiring manual](wiring-manual.md)
 
+##Setup
+
+Once the machine is assembled and wired, firmware needs to be installed so that it can move.
+Flashing GRBL onto the Arduino.
+GRBL is the firmware which is going to run on the Arduino and interpret the G-code commands. The installation is fairly simple.
+
+1. Download the Arduino IDE from their site, a program which allows to flash the Arduino with firmware.
+2. Download GRBL source code.zip file from the GitHub repository: https://github.com/gnea/grbl/releases and unzip the grbl file. Before we proceed a we need to modify the config.h file inside grbl to account for the lack of the Z axis.
+![configh1](img/configh1.png)
+change that to:
+![configh2](img/configh2.png)
+Next, it is crucial to put jumpers on the pins marked red, to clone the A axis with X.
+
+![A axis jumpers](img/jumperaxis.png)
+
+Open Arduino IDE and import the grbl file via: Sketch->Include Library->add .zip library (it says .zip but the uncompressed file should be chosen).
+Navigate to the grblUpload sketch via: File -> Examples -> grbl -> grblUpload
+Connect the Arduino to the PC via USB (make sure the correct board and port is selected).
+Flash the sketch through Sketch->Upload
+Connecting the Arduino to LaserGRBL(through which I will control the laser) is fairly simple. First, download LaserGRBL from their website: https://lasergrbl.com and install it. Second, connect the Arduino to the computer via USB, choose the correct port and select "115200" band rate, then click connect. If the console shows "Grbl 1.1h, the chip is connected.
+
+Now the important part. The laser needs to be correctly configured so that it won't damage itself. Fortunately, there is an instruction concerning the vital settings there: https://lasergrbl.com/wp-content/uploads/2020/05/Grbl-Configuration-ENG.pdf on the LaserGRBL website. Some of them are the length, direction and speed of the axis, homing direction, laser power and the calibration of the stepper motors.
+
 ## BOM
 
 | Product name            | Product description                                  | Price ($) | Amount          | Total price ($) | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
