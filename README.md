@@ -34,7 +34,7 @@ GRBL, Universal G-Code Sender, Arduino IDE, Fusion 360
 
 ## [Wiring manual](wiring-manual.md)
 
-##Setup
+## Setup
 
 Once the machine is assembled and wired, firmware needs to be installed so that it can move.
 Flashing GRBL onto the Arduino.
