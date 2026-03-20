@@ -1,4 +1,4 @@
-# Laser-cutter-engraver ⚙️
+# Las-XY - a laser engraver ⚙️
 
 ![3D model](img/overview.png)
 ![3dmodel](img/arduino1.png)
